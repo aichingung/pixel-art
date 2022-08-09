@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.color-container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+  gap: 5px;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+
+form {
+  padding: 20px;
+}
+
+.pixel {
+  border: 2px solid gray;
+  width: 50px;
+  height: 50px;
+}
+
+.div-container {
+  /* --size: 26; */
+  --size: 32;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.input-color {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.color-label {
+  font-size: 25px;
+}
+
+.query-input {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.search-btn {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+.input-color-btn {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+.turn-green {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+.turn-green:hover {
+  background-color: chartreuse;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+
+
+
